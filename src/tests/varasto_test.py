@@ -79,6 +79,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_nayta_varasto(self):
         teksti = str(self.varasto)
-
-        self.assertIsInstance(teksti, str)
+        #huom kirjoitusvirhe asserte
+        self.asserteIsInstance(teksti, str)
 
